@@ -1,0 +1,11 @@
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 40px;
+}
+
+a {
+    font-size: 18px;
+    color: blue;
+}
