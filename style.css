@@ -1,11 +1,21 @@
 body {
-    font-family: sans-serif;
-    background-color: #f4f4f4;
-    text-align: center;
-    padding: 40px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #fefefe;
+  padding: 30px;
 }
 
-a {
-    font-size: 18px;
-    color: blue;
+nav {
+  margin-bottom: 30px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #007BFF;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
