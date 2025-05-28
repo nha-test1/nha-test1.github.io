@@ -1,8 +1,10 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  background-color: #fefefe;
+  background: url('assets/survive_the_zombie/background.png') no-repeat center center fixed;
+  background-size: coever;
   padding: 30px;
+  color: white;
 }
 
 nav {
@@ -19,3 +21,8 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
+
+h1, h2, p {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
