@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   text-align: center;
   background: url('assets/survive_the_zombie/background.png') no-repeat center center fixed;
-  background-size: coever;
+  background-size: cover;
   padding: 30px;
   color: black;
 }
