@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  text-align: center;
+/*   text-align: center; */
   background: url('assets/survive_the_zombie/background.png') no-repeat center center fixed;
   background-size: cover;
   padding: 30px;
