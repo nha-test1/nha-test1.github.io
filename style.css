@@ -1,23 +1,4 @@
 body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  background: black url('assets/survive_the_zombies/background.jpg') no-repeat center center fixed;
-  background-size: cover;
-  padding: 30px;
-  color: white;
-}
+  font-family: 'Comic Sans MS', sans-serif;
 
-nav {
-  margin-bottom: 30px;
-}
-
-nav a {
-  margin: 0 10px;
-  text-decoration: none;
-  font-weight: bold;
-  color: #007BFF;
-}
-
-nav a:hover {
-  text-decoration: underline;
 }
