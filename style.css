@@ -1,4 +1,29 @@
 body {
-  font-family: 'Comic Sans MS', sans-serif;
+ font-family: Arial, sans-serif;
+ text-align: center;
+ background: black url('Background.jpg') no-repeat center center fixed;
+ background-size: cover;
+ padding: 30px;
+ color: white;
+}
 
+nav {
+  margin_bottom: 30px;
+} 
+
+nav a {
+  margin: 0 10px;
+ text-decoration: none;
+ font-weight: bold;
+ color: #007BFF;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.download-link {
+  margin: 0 10px;
+  font-weight: bold;
+  color: #007BFF;
 }
