@@ -1,5 +1,10 @@
+@font-face {
+ font-family: 'Shadows Into Light';
+ src: url('https://fonts.googleapis.com/css?family=Shadows Into Light');
+}
+
 body {
- font-family: Arial, sans-serif;
+ font-family: 'Shadows Into Light', sans-serif;
  text-align: center;
  background: black url('Background.jpg') no-repeat center center fixed;
  background-size: cover;
