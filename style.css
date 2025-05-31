@@ -94,5 +94,17 @@ section {
 }
 
 #projects {
-  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
+
+#projects > div {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1;
+  min-width: 250px;
+}
+
