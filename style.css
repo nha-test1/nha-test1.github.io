@@ -76,3 +76,9 @@ section {
 #projects {
   background-color: rgba(0, 0, 0, 0.4);
 }
+
+footer {
+  color: #bbb;
+  font-size: 0.9rem;
+  margin-top: 40px;
+}
