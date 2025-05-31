@@ -1,31 +1,47 @@
-.shadows-into-light-regular {
-  font-family: "Shadows Into Light", cursive;
-  font-weight: 600;
-  font-size: 50px;
-}
-
 body {
- font-family: Arial, sans-serif;
- text-align: center;
- background: black url('assets/survive_the_zombies/background.jpg') no-repeat center center fixed;
- background-size: cover;
- padding: 30px;
- color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: black url('assets/survive_the_zombies/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  padding: 30px;
+  color: white;
 }
 
-nav {
-  margin_bottom: 30px;
-} 
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* semi-transparent black overlay */
+  z-index: -1;
+}
+
+header nav {
+  margin-bottom: 30px;
+}
 
 nav a {
   margin: 0 10px;
- text-decoration: none;
- font-weight: bold;
- color: #007BFF;
+  text-decoration: none;
+  font-weight: bold;
+  color: #007BFF;
 }
 
 nav a:hover {
   text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.shadows-into-light-regular {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 600;
+  font-size: 50px;
 }
 
 .download-link {
@@ -33,3 +49,4 @@ nav a:hover {
   font-weight: bold;
   color: #007BFF;
 }
+
