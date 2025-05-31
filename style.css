@@ -18,6 +18,12 @@ body::before {
   z-index: -1;
 }
 
+footer {
+  color: #bbb;
+  font-size: 0.9rem;
+  margin-top: 40px;
+}
+
 header nav {
   background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black */
   padding: 10px 20px;
@@ -75,10 +81,4 @@ section {
 
 #projects {
   background-color: rgba(0, 0, 0, 0.4);
-}
-
-footer {
-  color: #bbb;
-  font-size: 0.9rem;
-  margin-top: 40px;
 }
