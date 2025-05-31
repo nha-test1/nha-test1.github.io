@@ -21,9 +21,8 @@ body::before {
 footer {
   margin-top: 40px;
   padding: 20px;
-  color: #bbb;
+  color: white;
   font-size: 0.9rem;
-  border-radius: 12px;
 }
 
 footer nav {
