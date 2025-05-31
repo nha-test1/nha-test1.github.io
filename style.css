@@ -7,7 +7,7 @@ body {
   color: white;
 }
 
-body::before {
+/* body::before {
   content: "";
   position: fixed;
   top: 0;
@@ -16,21 +16,30 @@ body::before {
   height: 100%;
   background: rgba(0, 0, 0, 0.5); /* semi-transparent black overlay */
   z-index: -1;
+} */
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 header nav {
-  margin-bottom: 30px;
+  background-color: rgba(0, 0, 0, 0.7); /* semi-transparent black */
+  padding: 10px 20px;
+  border-radius: 8px;
+  display: inline-block; /* so it’s not full width */
 }
 
 nav a {
-  margin: 0 10px;
-  text-decoration: none;
+  margin: 0 15px;
+  color: #00FFFF; /* bright cyan or another theme color */
   font-weight: bold;
-  color: #007BFF;
+  text-decoration: none;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  color: #FF00FF; /* bright pink on hover */
 }
 
 img {
@@ -48,5 +57,23 @@ img {
   margin: 0 10px;
   font-weight: bold;
   color: #007BFF;
+}
+
+section {
+  padding: 40px 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
+
+#intro {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#skills {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+#projects {
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
