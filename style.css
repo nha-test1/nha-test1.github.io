@@ -100,7 +100,7 @@ section {
   flex-wrap: wrap;
 }
 
-#projects a > div {
+#projects > a {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 20px;
   border-radius: 8px;
