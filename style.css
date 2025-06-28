@@ -153,12 +153,29 @@ section {
   border: 2px solid #FF00FF;
 }
 
+
+.aboutme-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
+  line-height: 1.6;
+  overflow: auto;
+  font-size: 20px;
+}
+
 .aboutme-image {
-    float: right;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  width: 40%;
+  max-width: 300px;
 }
 
 .aboutme-image img {
-    display: block;
-    width: 50%;
-    height: auto;
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px; 
 }
+
